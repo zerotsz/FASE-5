@@ -108,7 +108,7 @@ function renderLista(titulo, lista) {
 
     output.innerHTML = html;
 }
-
+// Mejora venderPlato con validaciones
 function venderPlato(nombre, cantidad) {
 
     const plato = menu.find(p => p.nombre.toLowerCase() === nombre.toLowerCase());
