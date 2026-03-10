@@ -109,6 +109,7 @@ function renderLista(titulo, lista) {
     output.innerHTML = html;
 }
 // Mejora venderPlato con validaciones
+//Integra alertas generales al sistema
 function venderPlato(nombre, cantidad) {
 
     const plato = menu.find(p => p.nombre.toLowerCase() === nombre.toLowerCase());
@@ -134,6 +135,7 @@ function venderPlato(nombre, cantidad) {
 }
 
 // 🔹Agrega verificarEstadoGeneral con bucle
+//Integra alertas generales al sistema
 function verificarEstadoGeneral() {
 
     let agotados = 0;
