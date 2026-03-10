@@ -133,7 +133,7 @@ function venderPlato(nombre, cantidad) {
     renderMenu();
 }
 
-// 🔹 FUNCION ESTADO GENERAL (CORREGIDA)
+// 🔹Agrega verificarEstadoGeneral con bucle
 function verificarEstadoGeneral() {
 
     let agotados = 0;
